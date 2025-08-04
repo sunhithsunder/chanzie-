@@ -1,0 +1,4 @@
+step 1: pip install tk
+step 2: pip install pyinstaller
+step 3: pyinstaller --onefile --windowed --icon=chanzie.ico chanziediary.py
+
