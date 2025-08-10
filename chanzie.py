@@ -46,7 +46,7 @@ for _ in range(70):
 # Title banner
 title_banner = tk.Label(root, text="chanzie!!",
                         bg="#ffe6f0", font=title_font, fg="#ff3399")
-title_banner.place(relx=0.5, y=10, anchor="n")
+title_banner.place(relx=0.5, y=8, anchor="n")
 
 # Clock
 clock_label = tk.Label(root, text="", bg="#ffe6f0", font=("Segoe Print", 12))
@@ -72,7 +72,7 @@ title_entry.grid(row=0, column=1, pady=10)
 
 # Body Text
 body_text = tk.Text(frame, font=custom_font, wrap="none",  # disable word wrap for horizontal scroll
-                    height=20, width=60, bg="#fff0f5")
+                    height=20, width=90, bg="#fff0f5")
 body_text.grid(row=1, column=0, columnspan=2, pady=10)
 
 # Vertical Scrollbar
